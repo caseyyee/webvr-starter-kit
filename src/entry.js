@@ -6,6 +6,8 @@
 		NoSleep = require('nosleep').NoSleep,
 		isMobile = require('ismobilejs');
 
+		require('webvr-polyfill');
+
 	function initRequirements() {
 		//load styles
 		require('!style!css!./css/style.css');
